@@ -1,0 +1,53 @@
+# Data Types
+print("Python Data Types")
+x = 5
+print(x, "is of type", type(x))
+x = "Hello World"
+print(x, "is of type", type(x))
+x = 20.5
+print(x, "is of type", type(x))
+x = ["apple", "banana", "cherry"]
+print(x, "is of type", type(x))
+x = ("apple", "banana", "cherry")
+print(x, "is of type", type(x))
+x = range(6)
+print(x, "is of type", type(x))
+x = {"name" : "John", "age" : 36}
+print(x, "is of type", type(x))
+x = {"apple", "banana", "cherry"}
+print(x, "is of type", type(x))
+x = frozenset({"apple", "banana", "cherry"})
+print(x, "is of type", type(x))
+x = True
+print(x, "is of type", type(x))
+x = b"Hello"
+print(x, "is of type", type(x))
+x = bytearray(5)
+print(x, "is of type", type(x))
+x = memoryview(bytes(5))
+print(x, "is of type", type(x))
+
+# Variables
+print("\nPython Variables")
+x = 5
+y = "John"
+print(x)
+print(y)
+
+x = 4 # x is of type int
+x = "Sally" # x is now of type str
+print(x)
+
+# Basic Arithmetic Operations
+print("\nPython Basic Arithmetic Operations")
+x = 5
+y = 3
+print(x + y) # 8
+print(x - y) # 2
+print(x * y) # 15
+print(x / y) # 1.6666
+print(x % y) # 2
+print(x ** y) # 125
+x = 5.5
+y = 2.5
+print(x // y) # 2.0
